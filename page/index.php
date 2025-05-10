@@ -53,7 +53,7 @@
                     </h5>
                     <!--TODO: Create a javascript function for the button showOutputBox -->
                     <button onclick="">Show Output</button>
-                    <div id="outputBox" >
+                    <div class="outputBox" >
                         <?php
                         $age = 17;
                         if ($age < 18){
@@ -81,7 +81,7 @@
                     </h5>
                     <!--TODO: Create a javascript function for the button showOutputBox -->
                     <button onclick="">Show Output</button>
-                    <div id="outputBox">
+                    <div class="outputBox">
                         <?php 
                         echo "Output: ";
                         for($i = 1; $i <= 5; $i++){
