@@ -1,9 +1,9 @@
 
     function showOutputBox1(){
-        document.getElementById("outputBox1").style.display = "block";
+        document.getElementById("outputBox1").classList.toggle("visible");
         console.log("ITS CLICKING");
     }
 
     function showOutputBox2(){
-        document.getElementById("outputBox2").style.display = "block";
+        document.getElementById("outputBox2").classList.toggle("visible");
     }
