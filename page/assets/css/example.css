@@ -116,3 +116,7 @@ button:hover{
     border: 1px solid black;
     padding: 2%;
 }
+
+#outputBox1.visible, #outputBox2.visible{
+    display: block;
+}
