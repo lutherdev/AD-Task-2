@@ -10,10 +10,6 @@ body {
     color: black;
 }
 
-#wrapper{
-
-}
-
 #header{
     display: flex;
     flex-direction: column;
@@ -56,6 +52,10 @@ body {
 #main{
     display: flex;
     flex: 1;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+    padding: 10px 10px;
     /*border: 1px solid rgb(209, 23, 23);*/
 }
 
@@ -64,6 +64,7 @@ body {
     flex-direction: column;
     padding: 5%;
     /*border: 1px solid black;*/
+    box-shadow: 5px 5px 10px 3px #00000080;
 }
 
 #hero-text h1{
@@ -73,4 +74,11 @@ body {
 
 #hero-text .btn{
     width: 23%;
+    transition: 0.5s;
+}
+
+#hero-text .btn:hover{
+    transition: 0.5s;
+    background-color: blueviolet;
+    color: white;
 }
