@@ -52,7 +52,7 @@
                         echo "You're 18+";<br>
                     }
                     </h5>
-                    <!--TODO: Create a javascript function for the button showOutputBox -->
+                    
                     <button onclick="showOutputBox1()">Show Output</button>
                     <div class="outputBox1" >
                         <?php
@@ -80,7 +80,7 @@
                         echo " $i ";<br>
                     }
                     </h5>
-                    <!--TODO: Create a javascript function for the button showOutputBox -->
+                    
                     <button onclick="showOutputBox2()">Show Output</button>
                     <div class="outputBox2">
                         <?php 
