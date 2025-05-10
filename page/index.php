@@ -18,7 +18,7 @@
         <div id="main">
             <div class="box">
                 <div id="hero-text">
-                    <h1>THIS IS THE BASICS OF PHP!</h1>
+                    <h1>THESE ARE THE BASICS OF PHP!</h1>
                     <p>Discover the basics of PHP!</p>
                 </div>
             </div>
@@ -47,7 +47,7 @@
                     <h4>Code:</h4>
                     <h5>$age = 17;<br>
                     if ($age < 18){<br>
-                    echo "false, your age is \${$age}";<br>
+                    echo "false, your age is {$age}";<br>
                     } else {<br>
                         echo "You're 18+";<br>
                     }
@@ -58,7 +58,7 @@
                         <?php
                         $age = 17;
                         if ($age < 18){
-                            echo "Output: false, your age is \${$age}";
+                            echo "Output: false, your age is {$age}";
                         } else {
                             echo "Output: You're 18+";
                         }
