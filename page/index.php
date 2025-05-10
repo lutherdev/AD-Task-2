@@ -37,58 +37,60 @@
                 ?>
             </div>
             <div class="box">
-                <h1>CONDITIONAL</h1>
-                <p>There are numerous ways to control a flow in which condition comes in!</p>
-                <h5>Scenario: Let's say your age is 17 but the condition is that you should be 18+</h5>
-                <h4>Code:</h4>
-                <h5>$age = 17;<br>
+                <div class="textbox">
+                    <h1>CONDITIONAL</h1>
+                    <p>There are numerous ways to control a flow in which condition comes in!</p>
+                    <h5>Scenario: Let's say your age is 17 but the condition is that you should be 18+</h5>
+                </div>
+                <div class="codebox">
+                    <h4>Code:</h4>
+                    <h5>$age = 17;<br>
                     if ($age < 18){<br>
                     echo "false, your age is \${$age}";<br>
                     } else {<br>
                         echo "You're 18+";<br>
                     }
-                </h5>
-                <?php
-                $age = 17;
-                if ($age < 18){
-                    echo "Output: false, your age is \${$age}";
-                } else {
-                    echo "Output: You're 18+";
-                }
-                ?>
-                <!--<form action="index.php" method="POST">
-                    <input type="text" name="userna">
-                    <button type="submit">Submit</button>
-                </form>
-                -->
+                    </h5>
+                    <!--TODO: Create a javascript function for the button showOutputBox -->
+                    <button onclick="">Show Output</button>
+                    <div id="outputBox" >
+                        <?php
+                        $age = 17;
+                        if ($age < 18){
+                            echo "Output: false, your age is \${$age}";
+                        } else {
+                            echo "Output: You're 18+";
+                        }
+                        ?>
+                    </div>
+                </div>
             </div>
             <div class="box">
-                <h1>LOOPING</h1>
-                <p>If we want to repeat a code multiple times, looping statements is what u need</p>
-                <h5>Scenario: we want to output 1 to 5</h5>
-                <h4>Code:</h4>
-                <h5>
+                <div class="textbox">
+                    <h1>LOOPING</h1>
+                    <p>If we want to repeat a code multiple times, looping statements is what u need</p>
+                    <h5>Scenario: we want to output 1 to 5</h5>
+                </div>
+                <div class="codebox">
+                    <h4>Code:</h4>
+                    <h5>
                     echo "Output: ";<br>
                     for($i = 1; $i <= 5; $i++){<br>
                         echo " $i ";<br>
                     }
-                </h5>
-                <?php 
-                    echo "Output: ";
-                    for($i = 1; $i <= 5; $i++){
-                        
-                        echo " $i ";
-                    }
-                ?>
-                
-                <!--<form action="index.php" method="POST">
-                    <input type="text" name="userna">
-                    <button type="submit">Submit</button>
-                </form>
-                -->
+                    </h5>
+                    <!--TODO: Create a javascript function for the button showOutputBox -->
+                    <button onclick="">Show Output</button>
+                    <div id="outputBox">
+                        <?php 
+                        echo "Output: ";
+                        for($i = 1; $i <= 5; $i++){
+                            echo " $i ";
+                        }
+                        ?>
+                    </div>
+                </div>
             </div>
-            
-            
         </div>
     </div>
 </body>
