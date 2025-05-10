@@ -68,7 +68,7 @@ body {
 }
 
 #hero-text h1{
-    font-size: 3em;
+    font-size: 2.5em;
     color: blueviolet;
 }
 
@@ -78,10 +78,27 @@ body {
 
 .box{
     width: 50%;
-    height: 400px;
+    height: 414px;
     border: 1px solid black;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 5%;
+}
+
+
+.textbox{
+    padding: 5%;
+}
+
+.codebox{
+    padding: 5%;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.outputBox{
+    border: 1px solid black;
+    padding: 2%;
 }
