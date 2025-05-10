@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="assets/css/example.css">
+    
 </head>
 <body>
     <div id="wrapper">
@@ -52,8 +53,8 @@
                     }
                     </h5>
                     <!--TODO: Create a javascript function for the button showOutputBox -->
-                    <button onclick="">Show Output</button>
-                    <div class="outputBox" >
+                    <button onclick="showOutputBox1()">Show Output</button>
+                    <div id="outputBox1" >
                         <?php
                         $age = 17;
                         if ($age < 18){
@@ -80,8 +81,8 @@
                     }
                     </h5>
                     <!--TODO: Create a javascript function for the button showOutputBox -->
-                    <button onclick="">Show Output</button>
-                    <div class="outputBox">
+                    <button onclick="showOutputBox2()">Show Output</button>
+                    <div id="outputBox2">
                         <?php 
                         echo "Output: ";
                         for($i = 1; $i <= 5; $i++){
@@ -93,6 +94,7 @@
             </div>
         </div>
     </div>
+    <script src="assets/js/example.js"></script>
 </body>
 </html>
 
