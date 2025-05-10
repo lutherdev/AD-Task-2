@@ -9,11 +9,6 @@ body {
     background-color: gray;
     color: black;
 }
-
-#wrapper{
-
-}
-
 #header{
     display: flex;
     flex-direction: column;
@@ -65,7 +60,6 @@ body {
     display: flex;
     flex-direction: column;
     padding: 5%;
-    border: 1px solid black;
 }
 
 #hero-text h1{
