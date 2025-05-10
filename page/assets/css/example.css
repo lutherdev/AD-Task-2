@@ -46,6 +46,7 @@ body {
     text-decoration: none;
     border: 1px solid black;
     flex-grow: 1;
+    transition: 0.5s;
 }
 
 #header .buttons a:hover{
@@ -98,7 +99,20 @@ body {
     border-radius: 10px;
 }
 
+button{
+    background-color: transparent;
+    padding: 5px;
+    transition: 0.5s;
+}
+
+button:hover{
+    transition: 0.5s;
+    background-color: white;
+    color: blueviolet;
+}
+
 .outputBox{
+    display: none;
     border: 1px solid black;
     padding: 2%;
 }
