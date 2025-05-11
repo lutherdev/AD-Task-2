@@ -23,7 +23,7 @@
 
 ![](https://visit-counter.vercel.app/counter.png?page=lutherdev/AD-Task-1)
 
-[![wakatime](https://wakatime.com/badge/user/07922ef3-1982-4f9d-9785-e4224b8b3d43.svg)](https://wakatime.com/@07922ef3-1982-4f9d-9785-e4224b8b3d43)
+[![wakatime](https://wakatime.com/badge/user/07922ef3-1982-4f9d-9785-e4224b8b3d43/project/f8ac3ad8-979a-4c41-a0d2-eb23ba144a08.svg)](https://wakatime.com/badge/user/07922ef3-1982-4f9d-9785-e4224b8b3d43/project/f8ac3ad8-979a-4c41-a0d2-eb23ba144a08)
 
 ---
 
