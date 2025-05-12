@@ -8,7 +8,7 @@
 </head>
 <body>
     <div id="wrapper">
-        <div id="header">
+        <div id="navbar">
             <div class="sitename">LEARNPHP</div>
             <div class="buttons">
                 <a href="" target="_self" class="btn">Home</a>
