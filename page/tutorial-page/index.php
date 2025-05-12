@@ -21,6 +21,7 @@
                 <div id="hero-text">
                     <h1>THESE ARE THE BASICS OF PHP!</h1>
                     <p>Discover the basics of PHP!</p>
+                    <p>remember: always enclose the code to < <span>?php</span>[code here] ?></p>
                 </div>
             </div>
             <div class="box">
