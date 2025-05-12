@@ -12,7 +12,7 @@
             <div class="sitename">LEARNPHP</div>
             <div class="buttons">
                 <a href="" target="_self" class="btn">Home</a>
-                <a href="page/index.php" target="_self" class="btn">Basic PHP</a>
+                <a href="page/tutorial-page/index.php" target="_self" class="btn">Basic PHP</a>
             </div>
         </div>
         <div id="main">
