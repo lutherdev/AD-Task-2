@@ -119,12 +119,12 @@ button:hover{
     color: blueviolet;
 }
 
-#outputBox1, #outputBox2{
+#outputBox0, #outputBox1, #outputBox2{
     display: none;
     border: 1px solid black;
     padding: 2%;
 }
 
-#outputBox1.visible, #outputBox2.visible{
+#outputBox0.visible, #outputBox1.visible, #outputBox2.visible{
     display: block;
 }
