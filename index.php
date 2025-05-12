@@ -9,6 +9,7 @@
 <body>
     <div id="wrapper">
         <div id="header">
+            <div class="sitename">LEARNPHP</div>
             <div class="buttons">
                 <a href="" target="_self" class="btn">Home</a>
                 <a href="page/index.php" target="_self" class="btn">Basic PHP</a>
