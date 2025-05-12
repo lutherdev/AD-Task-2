@@ -24,19 +24,25 @@
                 </div>
             </div>
             <div class="box">
-                <h1>DECLARATION</h1>
-                <p>To declare a variable in PHP we use the syntax</p>
-                <h5>$variablename = value</h5>
-                <form action="index.php" method="POST">
-                    <input type="text" name="userna">
-                    <button type="submit">Submit</button>
-                </form>
-                <?php
-                if (isset($_POST["userna"])){
-                    $name = $_POST["userna"];
-                    echo "<p>Hello, " . $name . "!</p>";
-                }
-                ?>
+                <div class="textbox">
+                    <h1>DECLARATION</h1>
+                    <p>To declare a variable in PHP we use the syntax</p>
+                    <h5>$variablename = value</h5>
+                </div>
+                <div class="codebox">
+                    <h4>Code:</h4>
+                    <h5>$age = 17;<br>
+                    echo "Output: The variable \$age has value of: {$age}";
+                    "
+                </h5>
+                <button onclick="showOutputBox0()">Show Output</button>
+                    <div id="outputBox0" >
+                        <?php
+                        $age = 17;
+                        echo "Output: The variable \$age has value of: {$age}";
+                        ?>
+                    </div>
+                </div>
             </div>
             <div class="box">
                 <div class="textbox">
