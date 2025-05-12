@@ -19,7 +19,7 @@
             <div id="hero-text">
                 <h1>Welcome Programmer!</h1>
                 <p>Discover the basics of PHP!</p>
-                <a href="page/index.php" class="btn"> PHP BASICS </a>
+                <a href="page/tutorial-page/index.php" class="btn"> PHP BASICS </a>
             </div>
             
         </div>
