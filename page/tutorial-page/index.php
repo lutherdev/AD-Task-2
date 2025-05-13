@@ -1,21 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="assets/css/example.css">
-    <title>LEARNPHP</title>
-</head>
-<body>
-    <div id="wrapper">
-        <div id="navbar">
-            <div class="sitename">LEARNPHP</div>
-            <div class="buttons">
-                <a href="../../index.php" target="_self" class="btn">Home</a>
-                <a href="" target="_self" class="btn">Basic PHP</a>
-            </div>
-        </div>
+<?php
+require_once __DIR__ . '/../../handlers/pageData.handler.php';
+require_once __DIR__ . '/../../components/templates/head.component.php';
+require_once __DIR__ . '/../../components/templates/nav.component.php';
+?>
+
+<?php
+head("Home");
+navHeader($navList);
+?>
         <div id="main">
             <div class="box">
                 <div id="hero-text">
