@@ -9,7 +9,7 @@
     <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">BASIC PHP</h3>
+  <h3 align="center">LEARNPHP</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
@@ -68,7 +68,9 @@ A 2 page website showing the basics of PHP
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
 
-- Basic Input and Output
+- Page Navigation
+- Looping
+- Conditional Statement
 
 ### Technology
 
