@@ -13,7 +13,7 @@
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  A 2 page website showing the basics of PHP
+  A website that shows the basics of PHP
 </div>
 
 <br />
@@ -21,9 +21,9 @@
 <!-- TODO: Change the zyx-0314 into your github username  -->
 <!-- TODO: Change the WD-Template-Project into the same name of your folder -->
 
-![](https://visit-counter.vercel.app/counter.png?page=lutherdev/AD-Task-1)
+![](https://visit-counter.vercel.app/counter.png?page=lutherdev/AD-Task-2)
 
-[![wakatime](https://wakatime.com/badge/user/07922ef3-1982-4f9d-9785-e4224b8b3d43/project/f8ac3ad8-979a-4c41-a0d2-eb23ba144a08.svg)](https://wakatime.com/badge/user/07922ef3-1982-4f9d-9785-e4224b8b3d43/project/f8ac3ad8-979a-4c41-a0d2-eb23ba144a08)
+[![wakatime](https://wakatime.com/badge/user/07922ef3-1982-4f9d-9785-e4224b8b3d43/project/4164fde5-f44c-496e-9412-7900f16f60f4.svg)](https://wakatime.com/badge/user/07922ef3-1982-4f9d-9785-e4224b8b3d43/project/4164fde5-f44c-496e-9412-7900f16f60f4)
 
 ---
 
