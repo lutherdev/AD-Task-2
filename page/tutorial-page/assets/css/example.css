@@ -65,6 +65,7 @@ body {
     flex: 1;
     width: 100%;
     flex-wrap: wrap;
+    padding: 5%;
 }
 
 #hero-text{
