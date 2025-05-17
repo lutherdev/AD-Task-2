@@ -92,6 +92,7 @@ navHeader($navList);
                     </div>
                 </div>
             </div>
+            <a href="../tutorial2-page/index.php">NEXT</a>
         </div>
     </div>
     <script src="assets/js/example.js"></script>
