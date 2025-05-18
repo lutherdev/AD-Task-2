@@ -1,4 +1,5 @@
 <?php
+require_once __DIR__ . '/../../utils/capitalizeFLetter.utils.php';
 require_once __DIR__ . '/../../handlers/pageData.handler.php';
 require_once __DIR__ . '/../../components/templates/head.component.php';
 require_once __DIR__ . '/../../components/templates/nav.component.php';
@@ -12,24 +13,21 @@ navHeader($navList);
             <div class="box">
                 <div class="textbox">
                     <h1>CLASSES AND FUNCTIONS</h1>
-                    <p>Classes are like blueprints for a product, where you can use this blueprint to create objects! It consists of related stuff like variables and functions to act on those variables</p>
-                    <h5>class Classname {
-                        variables..
-                        functions..    
-                    
-                    }</h5>
+                    <p>You can think of functions like a tv remote, where each click of the button it does the expected thing you want</p>
+                    <h5>Scenario: We want to see the lists of students' names in our database but CAPITALIZE</h5>
                 </div>
                 <div class="codebox">
                     <h4>Code:</h4>
-                    <h5>$age = 17;<br>
-                    echo "Output: The variable \$age has value of: {$age}";
+                    <h5>$arrayStuds = ["Luther", "Ford", "dean", "lelouch"]<br>
+                    for ($studs as $arrayStuds):<br>
+                        echo ucwords($studs);
                     "
                 </h5>
                 <button onclick="showOutputBox0()">Show Output</button>
                     <div id="outputBox0" >
                         <?php
-                        $age = 17;
-                        echo "Output: The variable \$age has value of: {$age}";
+                        capitalizeFLetter();
+                        TODO: Put an output here
                         ?>
                     </div>
                 </div>
