@@ -25,7 +25,9 @@ navHeader($navList);
                     include __DIR__ . '/../../components/templates/codeBox.component.php';
                 ?>
             </div>
-            <a href="../tutorial-page/index.php">BACK</a>
+            <div class ="pageButton">
+                <a href="../tutorial-page/index.php">BACK</a>
+            </div>
         </div>
     </div>
     <script src="assets/js/example.js"></script>
