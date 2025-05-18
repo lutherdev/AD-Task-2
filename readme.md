@@ -61,7 +61,7 @@
 <!-- TODO: To be changed -->
 <!-- The following are just sample -->
 
-A 2 page website showing the basics of PHP
+A website that shows the basics of PHP
 
 ### Key Components
 
@@ -71,6 +71,7 @@ A 2 page website showing the basics of PHP
 - Page Navigation
 - Looping
 - Conditional Statement
+- Functions
 
 ### Technology
 
@@ -81,8 +82,6 @@ A 2 page website showing the basics of PHP
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white)
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
 
-#### Deployment
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 
 ## Rules, Practices and Principles
 
@@ -136,5 +135,5 @@ AD-ProjectName
 
 | Title        | Purpose                                                                       | Link          |
 | ------------ | ----------------------------------------------------------------------------- | ------------- |
-| ChatGPT      | For explaining the basics of flexbox                                          | chatgpt.com |
+| ChatGPT      | For handlers, components, composer                                            | chatgpt.com |
 
