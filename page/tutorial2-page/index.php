@@ -11,14 +11,13 @@ navHeader($navList);
 ?>
         <div id="main">
             <div class="box">
-                <div class="textbox">
-                    <h1>FUNCTIONS</h1>
-                    <p>You can think of functions like a tv remote, where each click of the button it does the expected thing you want</p>
-                    <h5>Scenario: We want to see the lists of students' names in our database but CAPITALIZE</h5>
-                </div>
                 <?php
-                    $snippet = $codeBoxData[0]["snippet"];
-                    $funcName = $codeBoxData[0]["funcName"];
+                    $title = $boxData[3]["title"];
+                    $description = $boxData[3]["description"];
+                    $scenario = $boxData[3]["scenario"];
+                    include __DIR__ . '/../../components/templates/textBox.component.php';
+                    $snippet = $boxData[3]["snippet"];
+                    $funcName = $boxData[3]["funcName"];
                     $num = 0;
                     ob_start();
                     capitalizeFLetter($arrayStuds);
