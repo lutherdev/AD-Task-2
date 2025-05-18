@@ -26,8 +26,8 @@ navHeader($navList);
                 <button onclick="showOutputBox0()">Show Output</button>
                     <div id="outputBox0" >
                         <?php
-                        capitalizeFLetter();
-                        TODO: Put an output here
+                        //TODO: Put an output here
+                        capitalizeFLetter($arrayStuds);
                         ?>
                     </div>
                 </div>
