@@ -1,9 +1,9 @@
 <?php
 
-function capitalizeFLetter($studarray): string {
-    foreach ($arrayStuds as $studs):
-        echo "Output: " . ucwords($studs);
+function capitalizeFLetter($studarray){
+    foreach ($studarray as $studs):
+        echo "Output: " . ucwords($studs) . "<br>";
     endforeach;
 }
-    
+
 ?>
