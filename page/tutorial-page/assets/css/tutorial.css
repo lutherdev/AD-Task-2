@@ -129,3 +129,22 @@ button:hover{
 #outputBox0.visible, #outputBox1.visible, #outputBox2.visible{
     display: block;
 }
+
+.pageButton{
+    border: 1px solid black;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pageButton a{
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.pageButton a:hover{
+    transition: 0.5s;
+    color: blueviolet;
+    text-shadow: 1px 1px 5px rgba(138, 43, 226, 0.7);
+}
