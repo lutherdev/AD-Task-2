@@ -1,7 +1,7 @@
 <?php
 require_once __DIR__ . '/handlers/pageData.handler.php';
-require_once __DIR__ . '/components/templates/head.component.php';
-require_once __DIR__ . '/components/templates/nav.component.php';
+require_once __DIR__ . '/components/head.component.php';
+require_once __DIR__ . '/components/nav.component.php';
 ?>
 
 <?php
