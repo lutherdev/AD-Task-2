@@ -1,12 +1,14 @@
 <?php
+require_once __DIR__ . '/../bootstrap.php';
+
 $navList = [
     [
         "label" => "Home", 
-        "url" => "/"
+        "url" => BASE_URL . "/"
     ],
     [
         "label" => "Tutorial", 
-        "url" => "/page/tutorial-page/index.php"
+        "url" => BASE_URL . "/page/tutorial-page/index.php"
     ],
 ];
 
