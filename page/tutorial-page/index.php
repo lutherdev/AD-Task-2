@@ -71,7 +71,7 @@ navHeader($navList);
                 ?>
             </div>
             <div class ="pageButton">
-                <a href="/index.php">BACK</a>
+                <a href="../../index.php">BACK</a>
                 <a href="../tutorial2-page/index.php">NEXT</a>
             </div>   
         </div>
